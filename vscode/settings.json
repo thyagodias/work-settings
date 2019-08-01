@@ -1,9 +1,26 @@
 {
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Material Theme Darker",
-  "jetbrainsKeymap.promptV3Features": true,
-  "editor.multiCursorModifier": "ctrlCmd",
-  "editor.formatOnPaste": true,
+  "python.pythonPath": "C:\\Users\\thyag\\AppData\\Local\\Programs\\Python\\Python37-32\\python.exe",
+  "window.zoomLevel": 0,
   "editor.tabSize": 2,
-  "window.zoomLevel": 0
+  "editor.fontSize": 16,
+  "editor.lineHeight": 24,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  "git.autofetch": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.renderLineHighlight": "gutter",
+  "terminal.integrated.fontSize": 14,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "vue-html": "html",
+    "nunjucks": "html"
+  },
+  "git.confirmSync": false,
+  "terminal.external.windowsExec": "C:\\WINDOWS\\Sysnative\\bash.exe",
+  "explorer.confirmDelete": false,
+  "breadcrumbs.enabled": false,
+  "editor.renderWhitespace": "none",
+  "editor.renderControlCharacters": false,
+  "workbench.colorTheme": "Dracula"
 }
