@@ -6,9 +6,8 @@
   "editor.lineHeight": 24,
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
-  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
   "git.autofetch": true,
-  "workbench.iconTheme": "material-icon-theme",
   "editor.renderLineHighlight": "gutter",
   "terminal.integrated.fontSize": 14,
   "emmet.includeLanguages": {
@@ -19,8 +18,11 @@
   "git.confirmSync": false,
   "terminal.external.windowsExec": "C:\\WINDOWS\\Sysnative\\bash.exe",
   "explorer.confirmDelete": false,
-  "breadcrumbs.enabled": false,
+  "breadcrumbs.enabled": true,
   "editor.renderWhitespace": "none",
   "editor.renderControlCharacters": false,
-  "workbench.colorTheme": "Dracula"
+  "workbench.iconTheme": "material-icon-theme",
+  "extensions.ignoreRecommendations": false,
+  "workbench.activityBar.visible": true,
+  "workbench.colorTheme": "Origamid"
 }
