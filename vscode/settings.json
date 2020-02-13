@@ -1,28 +1,37 @@
 {
-  "python.pythonPath": "C:\\Users\\thyag\\AppData\\Local\\Programs\\Python\\Python37-32\\python.exe",
-  "window.zoomLevel": 0,
-  "editor.tabSize": 2,
-  "editor.fontSize": 16,
-  "editor.lineHeight": 24,
-  "editor.fontFamily": "Fira Code",
-  "editor.fontLigatures": true,
-  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
-  "git.autofetch": true,
-  "editor.renderLineHighlight": "gutter",
-  "terminal.integrated.fontSize": 14,
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact",
-    "vue-html": "html",
-    "nunjucks": "html"
-  },
-  "git.confirmSync": false,
-  "terminal.external.windowsExec": "C:\\WINDOWS\\Sysnative\\bash.exe",
+  // Visual do editor
   "explorer.confirmDelete": false,
   "breadcrumbs.enabled": true,
   "editor.renderWhitespace": "none",
   "editor.renderControlCharacters": false,
   "workbench.iconTheme": "material-icon-theme",
-  "extensions.ignoreRecommendations": false,
   "workbench.activityBar.visible": true,
-  "workbench.colorTheme": "Origamid"
+  "workbench.colorTheme": "Night Owl",
+  "window.zoomLevel": 0,
+  "editor.tabSize": 2,
+  "editor.fontSize": 18,
+  "editor.lineHeight": 24,
+  "editor.fontFamily": "Dank Mono", // "Operator Mono Book"
+  "editor.fontLigatures": true,
+  "explorer.compactFolders": false,
+  "editor.renderLineHighlight": "gutter",
+  // Terminal
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontFamily": "Dank Mono",
+  // Formatação
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "vue-html": "html",
+    "nunjucks": "html"
+  },
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "numso.prettier-standard-vscode",
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "octref.vetur"
+  },
+  // GIT
+  "git.confirmSync": false,
+  "git.autofetch": true,
 }
