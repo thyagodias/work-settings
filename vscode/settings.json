@@ -6,12 +6,12 @@
   "editor.renderControlCharacters": false,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.activityBar.visible": true,
-  "workbench.colorTheme": "Night Owl",
+  "workbench.editor.labelFormat": "short",
   "window.zoomLevel": 0,
   "editor.tabSize": 2,
-  "editor.fontSize": 18,
+  "editor.fontSize": 16,
   "editor.lineHeight": 24,
-  "editor.fontFamily": "Dank Mono", // "Operator Mono Book"
+  "editor.fontFamily": "Fira Code", // "Operator Mono Book"
   "editor.fontLigatures": true,
   "explorer.compactFolders": false,
   "editor.renderLineHighlight": "gutter",
@@ -24,9 +24,29 @@
     "vue-html": "html",
     "nunjucks": "html"
   },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
   "editor.formatOnSave": true,
   "[javascript]": {
-    "editor.defaultFormatter": "numso.prettier-standard-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+  },
+  "[typescript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+  },
+  "[javascriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+  },
+  "[typescriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
   },
   "[vue]": {
     "editor.defaultFormatter": "octref.vetur"
@@ -34,4 +54,5 @@
   // GIT
   "git.confirmSync": false,
   "git.autofetch": true,
+  "workbench.colorTheme": "Dracula",
 }
