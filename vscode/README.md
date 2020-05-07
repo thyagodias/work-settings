@@ -9,6 +9,7 @@ code --list-extensions | xargs -L 1 echo code --install-extension
 ## Install
 
 ```bash
+code --install-extension <name>
 dbaeumer.vscode-eslint
 dracula-theme.theme-dracula
 eamodio.gitlens
