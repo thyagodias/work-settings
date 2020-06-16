@@ -11,3 +11,5 @@
 - Visual Studio Code (preferências e extensões)
 - Bash
 - Git
+
+### Distro
