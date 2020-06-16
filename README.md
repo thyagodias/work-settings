@@ -7,9 +7,10 @@
 
 ---
 
-### Configurações:
+### Configurações abordadas:
 - Visual Studio Code (preferências e extensões)
 - Bash
 - Git
 
-### Distro
+### Distro:
+#### ![teste](https://github.com/thyagodias/work-settings/raw/master/Captura%20de%20tela%20de%202020-06-16%2010-33-50.png)
