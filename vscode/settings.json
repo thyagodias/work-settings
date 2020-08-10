@@ -17,7 +17,7 @@
   "editor.renderLineHighlight": "gutter",
   // Terminal
   "terminal.integrated.fontSize": 16,
-  "terminal.integrated.fontFamily": "Dank Mono",
+  "terminal.integrated.fontFamily": "Fira Code",
   // Formatação
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
@@ -32,21 +32,23 @@
     "editor.codeActionsOnSave": {
       "source.fixAll.eslint": true
     },
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescript]": {
     "editor.codeActionsOnSave": {
       "source.fixAll.eslint": true
     },
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascriptreact]": {
     "editor.codeActionsOnSave": {
       "source.fixAll.eslint": true
-    },
+    }
   },
   "[typescriptreact]": {
     "editor.codeActionsOnSave": {
       "source.fixAll.eslint": true
-    },
+    }
   },
   "[vue]": {
     "editor.defaultFormatter": "octref.vetur"
@@ -54,5 +56,32 @@
   // GIT
   "git.confirmSync": false,
   "git.autofetch": true,
-  "workbench.colorTheme": "Dracula",
+  "todo-tree.tree.showScanModeButton": false,
+  "window.titleBarStyle": "custom",
+  "extensions.ignoreRecommendations": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // Ícones
+  "material-icon-theme.folders.associations": {
+    "infra": "app",
+    "entities": "class",
+    "schemas": "class",
+    "typeorm": "database",
+    "oracle": "database",
+    "repositories": "mappings",
+    "http": "container",
+    "migrations": "tools",
+    "modules": "components",
+    "implementations": "core",
+    "dtos": "typescript",
+    "fakes": "mock"
+  },
+  "material-icon-theme.files.associations": {
+    "ormconfig.json": "database",
+    "tsconfig.json": "tune"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "workbench.colorTheme": "Community Material Theme Darker High Contrast"
 }
