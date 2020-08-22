@@ -11,13 +11,13 @@
   "editor.tabSize": 2,
   "editor.fontSize": 16,
   "editor.lineHeight": 24,
-  "editor.fontFamily": "Fira Code", // "Operator Mono Book"
+  "editor.fontFamily": "JetBrains Mono",
   "editor.fontLigatures": true,
   "explorer.compactFolders": false,
   "editor.renderLineHighlight": "gutter",
   // Terminal
   "terminal.integrated.fontSize": 16,
-  "terminal.integrated.fontFamily": "Fira Code",
+  "terminal.integrated.fontFamily": "JetBrains Mono",
   // Formatação
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
@@ -33,12 +33,13 @@
       "source.fixAll.eslint": true
     },
     "editor.defaultFormatter": "esbenp.prettier-vscode"
+    // "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescript]": {
     "editor.codeActionsOnSave": {
       "source.fixAll.eslint": true
-    },
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+    // "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascriptreact]": {
     "editor.codeActionsOnSave": {
@@ -51,7 +52,7 @@
     }
   },
   "[vue]": {
-    "editor.defaultFormatter": "octref.vetur"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   // GIT
   "git.confirmSync": false,
@@ -61,7 +62,7 @@
   "extensions.ignoreRecommendations": false,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    // "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   // Ícones
   "material-icon-theme.folders.associations": {
@@ -82,6 +83,5 @@
     "ormconfig.json": "database",
     "tsconfig.json": "tune"
   },
-  "javascript.updateImportsOnFileMove.enabled": "never",
-  "workbench.colorTheme": "Community Material Theme Darker High Contrast"
+  "javascript.updateImportsOnFileMove.enabled": "never"
 }
